@@ -29,9 +29,9 @@ Example output:
 Vis = [“Name”, “Gender”, “Track”, “Math<70”]; hometown is constant as Visayas
 <img width="546" height="98" alt="image" src="https://github.com/user-attachments/assets/bb2d5b3a-417a-45e7-a45d-c091b4583d3c" />
 
-*`.style.hide(axis="index")` was used in the two parts of Problem 1 to hide the index column of the dataframe and match the example output provided above.
+**This first problem is divided into two parts, part a and part b:**
 
-This first problem is divided into two parts, part a and part b. 
+*`.style.hide(axis="index")` was used in the two parts of Problem 1 to hide the index column of the dataframe and match the example output provided above.
 
 **In part a,** we're tasked to create the following data frames with the format; Instru = [“Name”, “GEAS”, “Electronics >70”]; where track is constant as Instrumentation and hometown as Luzon. We are able to do this using the code below. 
 ```python
@@ -59,7 +59,7 @@ The output of the code above is as follows:
 <img width="395" height="231" alt="image" src="https://github.com/user-attachments/assets/4974cceb-8aa7-4ff2-8eee-b8f867fc6720" />
 
 
-# **Problem 2: Data Visualization**
+### **Problem 2: Data Visualization**
 
 **In this part,** we're tasked to create a visualization that shows how the different features contributes to average grade. Does chosen track in college, gender, or hometown contributes to a higher average score?
 
