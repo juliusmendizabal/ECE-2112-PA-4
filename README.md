@@ -120,3 +120,10 @@ The output of the code above is as follows:
 Thank you for reading! 
 
 To see the main python programs for Programming Assignment 4, click this link https://github.com/juliusmendizabal/ECE-2112-PA-4/blob/main/Programming%20Assignment%204.ipynb and download the .ipynb file or the .py file. Open on Jupyter Notebook, then run all cells.
+
+
+#### **README file Version History:**
+
+September 21, 2025 - Initial README output uploaded (content + format).
+
+September 23, 2025 - Added few additional details + a README file Version History.
