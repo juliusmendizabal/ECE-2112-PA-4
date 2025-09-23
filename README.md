@@ -38,6 +38,8 @@ Vis = [“Name”, “Gender”, “Track”, “Math<70”]; hometown is consta
 Instru = df.loc[(df['Track']=='Instrumentation') & (df['Hometown']=='Luzon') & (df['Electronics']>70), ['Name','GEAS','Electronics']].style.hide(axis="index")
 Instru
 ```
+`df.loc[...]` was used to locate the needed columns according to the format given.
+
 The following conditions such as; Electronics score that are only greater than 70, board takers whose college track is Instrumentation and whose hometown was Luzon were followed.
 The output of the code above is as follows:
 
@@ -50,7 +52,10 @@ df['Average'] = df[['Math','Electronics','GEAS','Communication']].mean(axis=1)
 Mindy = df.loc[(df['Hometown']=='Mindanao') & (df['Gender']=='Female') & (df['Average']>=55), ['Name','Track','Electronics','Average']].style.hide(axis="index")
 Mindy
 ```
+
 `df['Average'] = df[['Math','Electronics','GEAS','Communication']].mean(axis=1)` - was used to create a new column in the axis 1, named 'Average', containing the average scores of the board takers 
+
+`df.loc[...]` was used to locate the needed columns according to the format given.
 
 The following conditions such as; Average score that are only greater than or equal to 55, board takers whose gender is female and whose hometown was Mindanao were followed.
 
