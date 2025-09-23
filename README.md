@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 ```
 ## **ECE BOARD EXAM PROBLEM: Using data wrangling and data visualization technique with storytelling, analyze the data and present different (i) data frames; and (ii) visuals using the dataset given.**
 
-After initializing the needed libraries, the excel containing the dataset for the ECE Board Exam Scores was first read using `pd.read_excel` and assigned to variable 'df'.
+After initializing the needed libraries, the excel file named 'board2.xlsx' containing the dataset for the ECE Board Exam Scores was read using `pd.read_excel()` and assigned to variable 'df'.
 ```python
 df = pd.read_excel('board2.xlsx')
 df
